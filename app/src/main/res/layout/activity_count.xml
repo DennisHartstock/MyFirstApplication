@@ -5,17 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_red_dark"
-    tools:context=".MainActivity">
+    tools:context=".CountActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btClickMe"
         android:layout_width="wrap_content"
-        android:id="@+id/tvTextView"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:backgroundTint="@color/white"
         android:padding="16dp"
-        android:text="@string/logo"
+        android:text="@string/bt_click_me"
         android:textColor="@android:color/holo_orange_light"
-        android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
